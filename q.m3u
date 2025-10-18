@@ -95,8 +95,6 @@ https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
 
-#EXTINF:-1 tvg-id="domashny" group-title="Эфирные",Домашний HD
-http://127.0.0.1:6878/ace/getstream?id=66e2f44bd0a7687a61f5cc4f03bcfc20a505057c&.mp4
 
 #EXTINF:-1 tvg-id="domashny-int" group-title="Эфирные", Домашний Int
 http://178.124.152.238:8088/dom
@@ -146,9 +144,6 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
 
-#EXTINF:-1 tvg-id="rbk" group-title="Новости", РБК
-http://127.0.0.1:6878/ace/getstream?id=987a82a561ae7c382be4e5aa00a15b61f66d5cdf&.mp4
-
 #EXTINF:-1 tvg-id="rbk" group-title="Новости", РБК HD
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 
@@ -191,12 +186,6 @@ https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-id="Fox News" group-title="Новости", FOX NEWS CHANNEL FHD
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-
-#EXTINF:-1 tvg-id="euronews" group-title="Новости",Euronews RU
-http://127.0.0.1:6878/ace/getstream?id=837edb9f5dab770965ddbd1b1f9f1ef55305d10d&.mp4
-
-#EXTINF:-1 tvg-id="dozhd" group-title="Новости", Дождь ТВ [СМИ иногент]
-http://127.0.0.1:6878/ace/getstream?id=4b91bbf01a5574583e7e4af5b258de3e454d83e4&.mp4
 
 #EXTINF:-1 tvg-id="dozhd" group-title="Новости", Дождь HD [СМИ иногент]
 https://m3u8.ott.blue/watch/7319/video.m3u8?geo=auto&token=94450098895765784220366841698509
@@ -256,23 +245,11 @@ http://live24.trkcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="legendarny24" group-title="Новости", Легендарный 24 HD
 https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 
-#EXTINF:-1 tvg-id="ufc" group-title="Спортивные",Удар
-http://127.0.0.1:6878/ace/getstream?id=d2374e2375a4275738e0dbed2f47d0114ad1cb64&.mp4
-
 #EXTINF:-1 tvg-id="UFC Network" group-title="Спортивные", UFC Network
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.cnn.sherdog.com/image_crop/300/300/_images/organizations/20221021093354_United_Fight_Alliance.JPG" tvg-id="no_epg_sport" group-title="Спортивные", UFA TV HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
-
-#EXTINF:-1 tvg-id="fightklub-pl" group-title="Спортивные", FightKlub HD [PL]
-http://127.0.0.1:6878/ace/getstream?id=b73da828421018c98905ed05934b77ea35aa1b29&.mp4
-
-#EXTINF:-1 tvg-id="fastfunbox-hd" group-title="Спортивные",Fast&Funbox HD
-http://127.0.0.1:6878/ace/getstream?id=c811cde690d467a2e45d3c263c4f0960a3933d18&.mp4
-
-#EXTINF:-1 tvg-id="fightbox-hd" group-title="Спортивные",FightBox HD
-http://127.0.0.1:6878/ace/getstream?id=49b734a5a3365674480089264be00ae28fabb640&.mp4
 
 #EXTINF:-1 tvg-logo="https://www.ediscom.it/img/clienti/loghi/dazn.svg" tvg-id="no_epg_sport" group-title="Спортивные", DAZN Combat
 https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
@@ -289,99 +266,18 @@ https://linear-253.frequency.stream/dist/glewedtv/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="box-tv" group-title="Спортивные", БОКС ТВ
 http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
 
-#EXTINF:-1 tvg-id="box-tv" group-title="Спортивные", БОКС ТВ HD
-http://127.0.0.1:6878/ace/getstream?id=1acaf203502983cd2993c6835bf0cbde8d016c3d&.mp4
-
-#EXTINF:-1 tvg-id="m1global" group-title="Спортивные",MMA-TV
-http://127.0.0.1:6878/ace/getstream?id=a7e4499c869037073c97deb47a50d1e7090b1c04&.mp4
-
-#EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные", Eurosport 1 HD
-http://127.0.0.1:6878/ace/getstream?id=1b0bc4d4dcd609d3c092712e721392b199f50a62&.mp4
-
-#EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные", Eurosport 2 HD
-http://127.0.0.1:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0&.mp4
-
-#EXTINF:-1 tvg-id="start" group-title="Спортивные",Старт HD
-http://127.0.0.1:6878/ace/getstream?id=4b129146077c1e357e4ab341448b9fb629f939dc&.mp4
-
 #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные",Старт Триумф HD
 http://77.235.1.19:8000/play/a033/index.m3u8
 
 #EXTINF:-1 tvg-id="tonus-tv" group-title="Спортивные",Тонус ТВ
 http://178.217.72.66:8080/tonus/index.m3u8
 
-#EXTINF:-1 group-title="Спортивные",Russian Extreme HD
-http://127.0.0.1:6878/ace/getstream?id=ed63659df12baa6febbe70f4125b6527aa1ae413&.mp4
-
 #EXTINF:-1 tvg-id="match-tv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спортивные",Матч! ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2/variant.m3u8
 
-#EXTINF:-1 tvg-id="match-tv" group-title="Спортивные",Матч! HD
-http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&.mp4
-
-#EXTINF:-1tvg-id="match-arena" group-title="Спортивные", Матч! Арена HD
-http://127.0.0.1:6878/ace/getstream?id=a1d67cb505881b2b5bc58ce2af367e5e6d26cab5&.mp4
-
-#EXTINF:-1 tvg-id="match-boets" group-title="Спортивные", Матч! Боец
-http://127.0.0.1:6878/ace/getstream?id=822654b2c0db24d1de149cb21fdd44a3b968fbfa&.mp4
-
-#EXTINF:-1 tvg-id="match-igra" group-title="Спортивные", Матч! Игра
-http://127.0.0.1:6878/ace/getstream?id=762e1d11f7d07029f316c6f61b8ef73289c6673c&.mp4
-
-#EXTINF:-1 tvg-id="match-nash-sport" group-title="Спортивные", Матч! Страна
-http://127.0.0.1:6878/ace/getstream?id=ef9c77bd94783448b8edb552109f5f15b2bd82d1&.mp4
-
-#EXTINF:-1 tvg-id="match-planeta" group-title="Спортивные", Матч! Планета
-http://127.0.0.1:6878/ace/getstream?id=106c8656fca0ca91a696110467788d202d7111af&.mp4
-
-#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч! Премьер HD
-http://127.0.0.1:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12&.mp4
-
-#EXTINF:-1 tvg-id="match-football1" group-title="Спортивные", Матч! Футбол 1 HD
-http://127.0.0.1:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9&.mp4
-
-#EXTINF:- 1tvg-id="match-football2" group-title="Спортивные", Матч! Футбол 2 HD
-http://127.0.0.1:6878/ace/getstream?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04&.mp4
-
-#EXTINF:-1 tvg-id="match-football3" group-title="Спортивные", Матч! Футбол 3 HD
-http://127.0.0.1:6878/ace/getstream?id=b6baa046075d82da300fc1b16de96067a8b9540e&.mp4
-
-#EXTINF:-1 tvg-id="setanta1-kz" group-title="Спортивные", Сетанта Спорт 1 HD
-http://127.0.0.1:6878/ace/getstream?id=42fe2ce3ef6b92653a74d85b6e98c2ba0abee707&.mp4
-
-#EXTINF:-1 tvg-id="setanta2-kz" group-title="Спортивные", Сетанта Спорт 2 HD
-http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&.mp4
-
-#EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
-http://178.134.1.158:8081/viasatsport/index.m3u8
-
-#EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные",Viju+ Sport
-http://127.0.0.1:6878/ace/getstream?id=dec96c86080c26ddf667ea90adfb513a40007a0b&.mp4
-
-#EXTINF:-1 tvg-id="footbolny" group-title="Спортивные", Мяч
-http://127.0.0.1:6878/ace/getstream?id=92f8939c7bff6bcb7e6da39379bb3d7a6a76693f&.mp4
-
-#EXTINF:-1 tvg-id="football-ru" group-title="Спортивные", Футбол
-http://127.0.0.1:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd&.mp4
-
-#EXTINF:-1 tvg-id="nba-tv" group-title="Спортивные", NBA TV
-http://127.0.0.1:6878/ace/getstream?id=e72d03fb9694164317260f684470be9ab781ed95&.mp4
-
-#EXTINF:-1 tvg-id="kxl" group-title="Спортивные",КХЛ HD
-http://127.0.0.1:6878/ace/getstream?id=aa6c193b9de1e6b6277e3075299fdeea925e2dc0&.mp4
-
-#EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные", KHL Prime
-http://127.0.0.1:6878/ace/getstream?id=dcda9de85f7d662c5c3c2efd74eca0fb5c6aab3b&.mp4
-
-#EXTINF:-1 group-title="Спортивные",Хоккей ТВ
-http://127.0.0.1:6878/ace/getstream?id=99f0646986e9266836dd79047dedecb04e243857&.mp4
-
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://bonus-betting.ru/wp-content/uploads/2021/10/nhl-logo.png" group-title="Спортивные", NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="Спортивные",Конный мир HD
-http://127.0.0.1:6878/ace/getstream?id=96951e5de62a3e7095a1ed8a191817c8935e7017&.mp4
 
 #EXTINF:-1 tvg-id="belarus5" group-title="Спортивные", Беларусь 5 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/chunklist_b2660000_sleng.m3u8
@@ -395,35 +291,11 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/index.m3u8
 #EXTINF:-1 tvg-id="tancuj" group-title="Спортивные", Танцуй!
 http://77.235.1.19:8000/play/a035/index.m3u8
 
-#EXTINF:-1 tvg-id="mir-basketbola" group-title="Спортивные", Мир баскетбола
-http://127.0.0.1:6878/ace/getstream?id=c4acde347445b0a07a9e8695b4254bee2b2df570&.mp4
-
-#EXTINF:-1 tvg-id="belarus5-inet" group-title="Спортивные",Беларусь 5 Интернет
-http://127.0.0.1:6878/ace/getstream?id=76d659bf884e764b5df338dedbc596d12c399d66&.mp4
-
-#EXTINF:-1 tvg-id="sky-sport-f1-de" group-title="Спортивные", Sky Sport F1 [DE]
-http://127.0.0.1:6878/ace/getstream?id=b04372b9543d763bd2dbd2a1842d9723fd080076&.mp4
-
-#EXTINF:-1 tvg-id="extreme-pl" group-title="Спортивные", Extreme Channel [PL]
-http://127.0.0.1:6878/ace/getstream?id=73ff07648e367efebd94636047b07625f664a082&.mp4
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/National_Olympic_Committee_of_Turkmenistan_logo.svg/1200px-National_Olympic_Committee_of_Turkmenistan_logo.svg.png" tvg-id="no_epg_sport" group-title="Спортивные", Turkmenistan Sport
-http://127.0.0.1:6878/ace/getstream?id=c3f5acd35086090c5fc815b961006630248b7dc0&.mp4
-
 #EXTINF:-1 tvg-id="A21 NETWORK" group-title="Спортивные", A21 Network
 https://tv.a21network.ru/content/37909/index.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" group-title="Спортивные", Canal Motor
-http://127.0.0.1:6878/ace/getstream?id=35e17cc84abc5e393b5acd688536a9681105f2d5&.mp4
-
-#EXTINF:-1 tvg-id="Red Bull HD" group-title="Спортивные",Red Bull TV
-http://127.0.0.1:6878/ace/getstream?id=963d5f09983d6816022fc2c45dd4d974337adb09&.mp4
-
 #EXTINF:-1 tvg-id="tennis-cnl-us" group-title="Спортивные",Tennis Channel [US]
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Tennis Channel HD" group-title="Спортивные",TENNIS CHANNEL
-http://127.0.0.1:6878/ace/getstream?id=039fae21c9e7e5214d3d898cba80863e37e623ac&.mp4
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://yt3.googleusercontent.com/ytc/AOPolaSY-gKU2sbMotqwkqOBkR0vfo540_8yH7YhbdKh=s900-c-k-c0x00ffffff-no-rj" group-title="Спортивные",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
@@ -439,38 +311,8 @@ http://88.212.7.10/live/test_rtvs_sport_hevc/playlist.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://88.212.7.10/live/test_ctsport_25p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="cbs-sports-network-us" group-title="Спортивные", CBS Sports Network [US]
-http://127.0.0.1:6878/ace/getstream?id=bfc49b39eed44f5e3a5f4ad060d463901a049dd1&.mp4
-
 #EXTINF:-1 tvg-id="bein-sports-xtra-us" group-title="Спортивные", beIN SPORTS XTRA
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-
-#EXTINF:-1 group-title="Спортивные", Eleven Sports 1 [PL]
-http://127.0.0.1:6878/ace/getstream?id=14407b00d454cb7dc0d70aa26e8bbc554f457f00&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Eleven Sports 2 [PL]
-http://127.0.0.1:6878/ace/getstream?id=54a4a28882d3cae1ca19de5d4b022ebea40351f9&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Eleven Sports 3 [PL]
-http://127.0.0.1:6878/ace/getstream?id=b146ee4b6e16c9df58e27bd02ffd6cea840ff212&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Eleven Sports 4 [PL]
-http://127.0.0.1:6878/ace/getstream?id=458a0ddd7d193f6d2750cd14d03a47f47a808e09&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Polsat Sport 1 HD
-http://127.0.0.1:6878/ace/getstream?id=92b6ba09dae4bbb8a67a405125d08ca8d15380ee&.mp4
-
-#EXTINF:-1 tvg-id="polsat-sport-extra" group-title="Спортивные", Polsat Sport 2 HD
-http://127.0.0.1:6878/ace/getstream?id=ef2cf11fc83f4f15a33c9a514a7afd2bce73122f&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Polsat Sport Premium 1
-http://127.0.0.1:6878/ace/getstream?id=4ce55db7e578ff52a6e526cf610e477464b8a99f&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Polsat Sport Premium 2
-http://127.0.0.1:6878/ace/getstream?id=3147c586346aee00c005d1caa55204d38678c95f&.mp4
-
-#EXTINF:-1 group-title="Спортивные", Polsat Sport Fight
-http://127.0.0.1:6878/ace/getstream?id=9e7fe279f421b734a8af9e68320955fd16f80b4b&.mp4
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/87/e3/f687e3b6-6f05-b755-3eeb-69ce1fb30611/source/512x512bb.jpg" group-title="Спортивные", Bahrain Sports 1
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
@@ -486,130 +328,6 @@ http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunkl
 
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://i.imgur.com/U0A8Gex.png" group-title="Спортивные", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
-
-#EXTINF:-1 tvg-id="bt-sport1" group-title="Спортивные",TNT Sport 1
-http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&.mp4
-
-#EXTINF:-1 tvg-id="bt-sport2" group-title="Спортивные",TNT Sport 2
-http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801&.mp4
-
-#EXTINF:-1 tvg-id="bt-sport3" group-title="Спортивные",TNT Sport 3
-http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033&.mp4
-
-#EXTINF:-1 tvg-id="bt-sport4" group-title="Спортивные",TNT Sport 4
-http://127.0.0.1:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce&.mp4
-
-#EXTINF:-1 tvg-id="bein-sport-1-fr" group-title="Спортивные",beIN Sports 1
-http://127.0.0.1:6878/ace/getstream?id=bba1905fcd1c4975aec544047bf8e4cd23ce3fe0&.mp4
-
-#EXTINF:-1 tvg-id="bein-sport-2-fr" group-title="Спортивные",beIN Sports 2
-http://127.0.0.1:6878/ace/getstream?id=edb507e38394d614c9ff55805c9d354ae13210bc&.mp4
-
-#EXTINF:-1 tvg-id="bein-sport-3-fr" group-title="Спортивные",beIN Sports 3
-http://127.0.0.1:6878/ace/getstream?id=731bd3336ec0986ff9100efe40dbaf1473a22cf8&.mp4
-
-#EXTINF:-1 tvg-id="cbs-sports-network-us" group-title="Спортивные",CBS Sports Network [US]
-http://127.0.0.1:6878/ace/getstream?id=bfc49b39eed44f5e3a5f4ad060d463901a049dd1&.mp4
-
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://tvtolive.com/wp-content/uploads/Colimdo-TV-tvtolive.com_.jpg" group-title="Спортивные",Colimdo TV [do]
-http://127.0.0.1:6878/ace/getstream?id=99943222d3b20759b714ff584a54f7401f6c3501&.mp4
-
-#EXTINF:-1 tvg-id="daznbar1" group-title="Спортивные",DAZN 1 HD
-http://127.0.0.1:6878/ace/getstream?id=d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151&.mp4
-
-#EXTINF:-1 tvg-id="daznbar2" group-title="Спортивные",DAZN 2 HD
-http://127.0.0.1:6878/ace/getstream?id=b0eabe0fdd02fdd165896236765a9b753a2ff516&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport3-pt" group-title="Спортивные",DAZN 3 HD
-http://127.0.0.1:6878/ace/getstream?id=d1d9ec2361a6ac8edc0b2841866383768cc28df9&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport4-pt" group-title="Спортивные",DAZN 4 HD
-http://127.0.0.1:6878/ace/getstream?id=7e90956539f4e1318a63f3960e4f75c7c7c5a3b8&.mp4
-
-#EXTINF:-1 tvg-id="espn2-nl" group-title="Спортивные",ESPN 2
-http://127.0.0.1:6878/ace/getstream?id=3e0ba6867173f345d482d80c771f1a5dc3b37e63&.mp4
-
-#EXTINF:-1 tvg-id="espn4-nl" group-title="Спортивные",ESPN 4
-http://127.0.0.1:6878/ace/getstream?id=5f9b19c57195cc28ab81e0ec8cad03b55118687a&.mp4
-
-#EXTINF:-1 tvg-id="espn-us" group-title="Спортивные",ESPN [US]
-http://127.0.0.1:6878/ace/getstream?id=4b4907de51ec11087d4bed5876f2a0c68264f442&.mp4
-
-#EXTINF:-1 tvg-id="espn1-nl" group-title="Спортивные",ESPN [BE]
-http://127.0.0.1:6878/ace/getstream?id=79f10c6c6168e42bfc606f3f7b9e5f3ca79dedab&.mp4
-
-#EXTINF:-1 tvg-id="espn2-nl" group-title="Спортивные",ESPN 2
-http://127.0.0.1:6878/ace/getstream?id=664eb5fe460b96941aed633959a845b185cd8394&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport1-pt" group-title="Спортивные",Eleven Sports 1 PT
-http://127.0.0.1:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport2-pt" group-title="Спортивные",Eleven Sports 2 PT
-http://127.0.0.1:6878/ace/getstream?id=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport3-pt" group-title="Спортивные",Eleven Sports 3 PT
-http://127.0.0.1:6878/ace/getstream?id=dae7d1251f069516cc0a9c8f15f6639d2a17df1e&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport4-pt" group-title="Спортивные",Eleven Sports 4 PT
-http://127.0.0.1:6878/ace/getstream?id=0f32c0131a2d9444996410801f4e18b04384db98&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport5-pt" group-title="Спортивные",Eleven Sports 5 PT
-http://127.0.0.1:6878/ace/getstream?id=4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a&.mp4
-
-#EXTINF:-1 tvg-id="eleven-sport6-pt" group-title="Спортивные",Eleven Sports 6 PT
-http://127.0.0.1:6878/ace/getstream?id=50b6d2b5fd59fefb9f4fd2176994d418f2b94a80&.mp4
-
-#EXTINF:-1 tvg-id="Fox Sports 1 HD" group-title="Спортивные",Fox Sports 1
-http://127.0.0.1:6878/ace/getstream?id=c9c062941fbecb16ce29437f346ea7177d720898&.mp4
-
-#EXTINF:-1 tvg-id="Fox Sports 2 HD" group-title="Спортивные",Fox Sports 2
-http://127.0.0.1:6878/ace/getstream?id=cba8d369eac629b577750edb90370cd1c5fb03b7&.mp4
-
-#EXTINF:-1 tvg-id="m-plus-deport-es" group-title="Спортивные",M+ Deportes [ES]
-http://127.0.0.1:6878/ace/getstream?id=acb510858f34c3c6fd5f79395b031abd6885c2b3&.mp4
-
-#EXTINF:-1 tvg-id="m-plus-golf-es" group-title="Спортивные",M+ Golf [ES]
-http://127.0.0.1:6878/ace/getstream?id=872608e734992db636eb79426802cd08f4029afb&.mp4
-
-#EXTINF:-1 tvg-id="m-plus-laliga-es" group-title="Спортивные",M+ LALIGA [ES]
-http://127.0.0.1:6878/ace/getstream?id=cc9b7f5fe416069a2110da0909b0f915043c468b&.mp4
-
-#EXTINF:-1 tvg-id="m-plus-ligac-es" group-title="Спортивные",M+ Liga de Campeones [ES]
-http://127.0.0.1:6878/ace/getstream?id=e572a5178ff72eed7d1d751a18b4b3419699f370&.mp4
-
-#EXTINF:-1 tvg-id="mlb-network-us" group-title="Спортивные",MLB Network [US]
-http://127.0.0.1:6878/ace/getstream?id=2cfb9d2491b15744497e3f38bd1b2f5c4e45f5c6&.mp4
-
-#EXTINF:-1 tvg-id="manunited-tv" group-title="Спортивные",MU TV
-http://127.0.0.1:6878/ace/getstream?id=4e5957e5047693664f42960e47512aacc4b2993f&.mp4
-
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://photos.live-tv-channels.org/tv-logo/canal-motor-5880.webp" group-title="Спортивные", Canal Motor
-http://127.0.0.1:6878/ace/getstream?id=442aeb6643b8836f9d00361c9e48eeb0841ddf98&.mp4
-
-#EXTINF:-1 tvg-id="nba-tv-us" group-title="Спортивные",NBA TV [US]
-http://127.0.0.1:6878/ace/getstream?id=e72d03fb9694164317260f684470be9ab781ed95&.mp4
-
-#EXTINF:-1 tvg-id="nfl-network" group-title="Спортивные",NFL Network HD
-http://127.0.0.1:6878/ace/getstream?id=6fe20fc895047292a34cd236b974dd361dcae875&.mp4
-
-#EXTINF:-1 tvg-id="premier-sports-1-uk" group-title="Спортивные",Premier Sports 1 [UK]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565&.mp4
-
-#EXTINF:-1 tvg-id="premier-sports-2-uk" group-title="Спортивные",Premier Sports 2 [UK]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537&.mp4
-
-#EXTINF:-1 tvg-id="sky-sports-football" group-title="Спортивные",Sky Sports Football [UK]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d&.mp4
-
-#EXTINF:-1 tvg-id="sky-sports-maine" group-title="Спортивные",Sky Sports Main Event [UK]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e&.mp4
-
-#EXTINF:-1 tvg-id="sky-sports-apl" group-title="Спортивные",Sky Sports Premier League [UK]
-http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e&.mp4
-
-#EXTINF:-1 tvg-id="tennis-cnl-us" group-title="Спортивные",Tennis Channel [US]
-http://127.0.0.1:6878/ace/getstream?id=039fae21c9e7e5214d3d898cba80863e37e623ac&.mp4
-
 
 #EXTINF:-1 tvg-id="Наш спорт 1" group-title="Наш спорт", Наш спорт 1
 http://stream-msk-14.ott.tricolor.tv/dtv/id794_MSKSG-PVR-1--Nash_khokkey1/01/plst.m3u8
@@ -703,9 +421,6 @@ https://stream-msk-11.ott.tricolor.tv:443/dtv/id878_MSKSG-PVR-1--Nash_sport29/03
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
 
-#EXTINF:-1 group-title="Развлекательные",Пятница!
-http://127.0.0.1:6878/ace/getstream?id=10d62d03d9fd2a9e84f639ed40a42e6a13940fce&.mp4
-
 #EXTINF:-1 tvg-id="Среда (Дагестан)" tvg-logo="http://i120.fastpic.org/big/2022/1129/a3/e14bf519c90b3f8cb5fc4aea77209aa3.png" group-title="Развлекательные",СРЕДА
 http://iptv46.mcx-ix.ru:8077/sreda/index.m3u8
 
@@ -713,15 +428,9 @@ http://iptv46.mcx-ix.ru:8077/sreda/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
 
-#EXTINF:-1 group-title="Развлекательные",СТС HD
-http://127.0.0.1:6878/ace/getstream?id=5e06a45d6939341fb7427189245380086c1d63c7&.mp4
-
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/televizionnofutbolnaya-viki/images/1/10/TNT_01.06.2022-now.png/revision/latest?cb=20240209120609&path-prefix=ru" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
-
-#EXTINF:-1 group-title="Развлекательные",ТНТ HD
-http://127.0.0.1:6878/ace/getstream?id=caa3dad746d80a887e8a259f1c7c2eead749094b&.mp4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС Love
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -731,22 +440,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 
-#EXTINF:-1 tvg-id="super" group-title="Развлекательные",СУББОТА! HD
-http://127.0.0.1:6878/ace/getstream?id=14002498165f0a7aaaea284ebb9965f078eb0f69&.mp4
-
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ4
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 
-#EXTINF:-1 tvg-id="tnt4" group-title="Развлекательные",ТНТ4 HD
-http://127.0.0.1:6878/ace/getstream?id=da27959a3e9ee97647df5aadd056021099e2d845&.mp4
-
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТВ-3
 #EXTVLCOPT:http-user-agent=SmartTV
 https://rt-ct-smol-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
-
-#EXTINF:-1 tvg-id="tv3-ru" group-title="Развлекательные",ТВ-3 HD
-http://127.0.0.1:6878/ace/getstream?id=3b878b202b26e2b15bf7304e21a7d5283ebf236b&.mp4
 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Че
 #EXTVLCOPT:http-user-agent=SmartTV
@@ -774,9 +474,6 @@ https://n1.slavmir.tv/live/slavmir/chunklist.m3u8
 #EXTINF:-1 tvg-id="teatr" group-title="Развлекательные",Театр
 http://77.235.1.19:8000/play/a04t/index.m3u8
 
-#EXTINF:-1 tvg-id="nostalgia" group-title="Развлекательные", Ностальгия
-http://127.0.0.1:6878/ace/getstream?id=4308d30a3e8a7bc83e1f081f565371120c3fb6b3&.mp4
-
 #EXTINF:-1 tvg-id="tvoetv-humor" group-title="Развлекательные",Твоё ТВ HD Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
@@ -799,30 +496,15 @@ http://178.212.71.253:8000/play/119/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://77.235.1.19:8000/play/a06t/index.m3u8
 
-#EXTINF:-1 tvg-id="teledom" group-title="Развлекательные",Теледом HD
-http://127.0.0.1:6878/ace/getstream?id=0b24228bb1c0d6340911b7536b52c5bd28af0721&.mp4
-
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Тео-ТВ
 #EXTVLCOPT:http-user-agent=SmartTV
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_TEOTV/variant.m3u8
-
-#EXTINF:-1 tvg-id="Kulinar TV" group-title="Развлекательные", Кулинар ТВ
-http://127.0.0.1:6878/ace/getstream?id=7e2f8e0d1e508437eb92f3579fb67c14c74a7269&.mp4
-
-#EXTINF:-1 tvg-id="eda-hd" group-title="Развлекательные", FoodTime
-http://127.0.0.1:6878/ace/getstream?id=42f32ae94fa97417ddd6f2b6f141bca76f56a299&.mp4
-
-#EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ-ТВ
-http://127.0.0.1:6878/ace/getstream?id=a90a4172c6e146c87a92e32b5a8ed6af12ba0237&.mp4
 
 #EXTINF:-1 tvg-id="food-network" group-title="Развлекательные", Food Network
 http://178.217.72.66:8080/food_network/index.m3u8
 
 #EXTINF:-1 group-title="Развлекательные",Анекдот ТВ
 http://77.235.1.19:8000/play/a05b/index.m3u8
-
-#EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные", Сарафан
-http://127.0.0.1:6878/ace/getstream?infohash=18875e086412c2ed551e03a0b176f9b2861c5e6a
 
 #EXTINF:-1 tvg-id="zhivi" group-title="Развлекательные", Живи
 http://195.18.23.20:8000/play/10/index.m3u8
@@ -2437,7 +2119,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
 #EXTVLCOPT:http-user-agent=SmartTV
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
 
@@ -3164,78 +2846,6 @@ https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-name="МузСоюз" group-title="Религиозные",Муз Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Радио Родных Дорог" group-title="Радио", Радио Родных Дорог
-http://127.0.0.1:6878/ace/getstream?id=90b04f93d22b6e20392f12e3d87975769910fb3a&.mp4
-
-#EXTINF:-1 tvg-id="Дорожное радио" group-title="Радио", Дорожное FM
-http://127.0.0.1:6878/ace/getstream?id=8c2422795ac8507b7659a48a791fe9ecbadbb808&.mp4
-
-#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-evropa-plyus-1659175383.jpg" tvg-id="no_epg_radio" group-title="Радио", Europa Plus
-http://127.0.0.1:6878/ace/getstream?id=83b793903599d1af95dfe78ad0c9b115f33ad167&.mp4
-
-#EXTINF:-1 tvg-id="Авторадио" group-title="Радио", Авто Радио
-http://127.0.0.1:6878/ace/getstream?id=abf5adce9b65353ea128bc04efc3f99a80c5a314&.mp4
-
-#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-radio-maximum-1660163074.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Maximum
-http://127.0.0.1:6878/ace/getstream?id=892e7c09635bc0b0f7c790670b853715a3c4dad2&.mp4
-
-#EXTINF:-1 tvg-id="Русское радио" group-title="Радио", Русское Радио
-http://127.0.0.1:6878/ace/getstream?id=f4254657d4568de55d56b4746b5c59d72165b987&.mp4
-
-#EXTINF:-1 tvg-id="Юмор FM" group-title="Радио", Юмор FM
-http://127.0.0.1:6878/ace/getstream?id=b129d8be5caf1246626ce4b8d74a8b7a881c21e6&.mp4
-
-#EXTINF:-1 tvg-id="Радио Ваня" group-title="Радио", Радио Ваня
-http://127.0.0.1:6878/ace/getstream?id=269648e118e8fe87596d88c92a8a1bebc35b91f7&.mp4
-
-#EXTINF:-1 tvg-id="Comedy Radio" group-title="Радио", Comedy Radio
-http://127.0.0.1:6878/ace/getstream?id=b04db7089442748915edd454daeb0caece41b318&.mp4
-
-#EXTINF:-1 tvg-logo="https://pvgstudio.ru/work/img/dfm3.jpg" tvg-id="no_epg_radio" group-title="Радио", Dance FM
-http://127.0.0.1:6878/ace/getstream?id=b860616c6a9d2b0c6dfce6a156fd1651ee43ee75&.mp4
-
-#EXTINF:-1 tvg-logo="https://vivareit.ru/wp-content/uploads/2015/10/retro99.jpg" tvg-id="no_epg_radio" group-title="Радио", Ретро FM
-http://127.0.0.1:6878/ace/getstream?id=e8697ce179c48aad25e9105760fbccc7d114ccd9&.mp4
-
-#EXTINF:-1 tvg-logo="https://i.podster.fm/img/220577/crop/yes/size/default/220577-1.jpg" tvg-id="no_epg_radio" group-title="Радио", ХИТ FM
-http://127.0.0.1:6878/ace/getstream?id=939fa4032f5d8f2a4d0a73e551f61ece1295caba&.mp4
-
-#EXTINF:-1 tvg-id="Радио 7 на семи холмах" group-title="Радио", Радио 7
-http://127.0.0.1:6878/ace/getstream?id=84239eda31ab6dba974829ee087742ae3119180f&.mp4
-
-#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3463-6266-4664-a637-333161383337/3c484c65a2d021a349aa.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Воскресение
-http://127.0.0.1:6878/ace/getstream?id=8b59dfd44738d23d6e1bf78de85673795a4dd127&.mp4
-
-#EXTINF:-1 tvg-id="Радио ЗВЕЗДА" group-title="Радио", Радио Звезда
-http://127.0.0.1:6878/ace/getstream?id=b0badaae84171808f202715b2c8628d99001922a&.mp4
-
-#EXTINF:-1 tvg-id="Радио Комсомольская правда" group-title="Радио", Радио Комсомольская Правда
-http://127.0.0.1:6878/ace/getstream?id=a9f570045df01bd844b440188dff1549ab5ad481&.mp4
-
-#EXTINF:-1 tvg-id="Радио ENERGY" group-title="Радио", Радио ENERGY
-http://127.0.0.1:6878/ace/getstream?id=a796a142aa62cfc4e0426dd17e6820976832b470&.mp4
-
-#EXTINF:-1 tvg-id="Радио Romantika" group-title="Радио", Радио Romantika
-http://127.0.0.1:6878/ace/getstream?id=4bf1e0656a74f65b2f413cff91d5334ef2970917&.mp4
-
-#EXTINF:-1 tvg-id="Радио для Двоих" group-title="Радио", FM Радио для Д❤️их
-http://127.0.0.1:6878/ace/getstream?id=9871db4dfe24e3fd4841b19f040ab5bf6d05d4d4&.mp4
-
-#EXTINF:-1 tvg-id="Детское радио" group-title="Радио", Детское Радио
-http://127.0.0.1:6878/ace/getstream?id=65a5d89028230c2b8c73a838769046e8f0903fb3&.mp4
-
-#EXTINF:-1 tvg-logo="https://твояволна.рф/TVOLNA_logo_TVolna_20201113.png" tvg-id="no_epg_radio" group-title="Радио", Радио ТВОЯ ВОЛНА
-http://127.0.0.1:6878/ace/getstream?id=e42a2fe5f473287bd4137aa39bcdba31294b7e6f&.mp4
-
-#EXTINF:-1 tvg-logo="https://sun1-27.userapi.com/K00RzIbIRMgpmKk5gMyIlZ_XuwhfIeOk_ID50g/WKEk93tgVTQ.jpg" tvg-id="no_epg_radio" group-title="Радио", Радио Град Петров
-http://127.0.0.1:6878/ace/getstream?id=ef276085ae4380901afe102154b880a0befb52ce&.mp4
-
-#EXTINF:-1 tvg-id="Новое Радио" group-title="Радио", Новое Радио
-http://127.0.0.1:6878/ace/getstream?id=0051dcb7c9f39259fe775ba6c7d7302cf38800fb&.mp4
-
-#EXTINF:-1 tvg-logo="https://www.radiogrom.com/paint_new/logo__rus_big/buryad_fm.jpg" tvg-id="no_epg_radio" group-title="Радио", Буряд FM
-http://127.0.0.1:6878/ace/getstream?id=5cf82b2a95eaca1304fca5faae1be52b20a1df2c&.mp4
-
 #EXTINF:-1 tvg-logo="https://alimentaryrecipes.com/images/stations/russkiehiti.webp" tvg-id="no_epg_radio" group-title="Радио", EHR FM Русские Хиты
 http://stream.ehrhiti.lv:8000/khr.mp3
 
@@ -3300,9 +2910,6 @@ http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
 
 #EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="http://1.bp.blogspot.com/-E-qvJLo_j1s/UB7Jd47Ro2I/AAAAAAAAATw/qQskQfN6tQ4/s1600/miami-tv-logo-gif2_design.png" group-title="Взрослые [ВХОД СТРОГО 18+]",Miami TV
 http://59ec5453559f0.streamlock.net:1935/Miamitv/smil:WEB4141/chuklist.m3u8
-
-#EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="http://i123.fastpic.org/big/2024/0716/50/20497257390becd38ff0f6f5e282c550.png" group-title="Взрослые [ВХОД СТРОГО 18+]",Eropuls DE 18+
-http://127.0.0.1:6878/ace/getstream?id=1649a50ddf1bd0916942f0917fffc477c92c809f&.mp4
 
 #EXTINF:-1 tvg-logo="http://i123.fastpic.org/big/2024/0716/50/20497257390becd38ff0f6f5e282c550.png" tvg-id="no_epg_xxx" group-title="Взрослые [ВХОД СТРОГО 18+]",Rough
 http://cdn.adultiptv.net/rough.m3u8
